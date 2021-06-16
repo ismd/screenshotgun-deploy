@@ -1,0 +1,6 @@
+[ppa]
+fqdn = ppa.launchpad.net
+method = ftp
+incoming = ~ismd/ubuntu/screenshotgun/
+login = anonymous
+allow_unsigned_uploads = 0
