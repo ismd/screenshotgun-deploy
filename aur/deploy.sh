@@ -12,6 +12,8 @@ if [[ -z "${AUR_VERSION}" ]]; then
   exit 1
 fi
 
+pacman -Sy
+
 echo "nobody ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 
 mkdir ~/.ssh
